@@ -1,0 +1,30 @@
+/* Header
+* ===============
+*
+* Place all your header declarations here */
+.site-head {
+  text-align: center;
+  height: 650px;
+  position: relative;
+  overflow: hidden;
+  padding: 30px;
+  text-transform: uppercase;
+
+}
+
+.site-head h1 {
+  font-size: 2.4em;
+}
+
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height:auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  transition: 1s opacity;
+}
