@@ -806,9 +806,28 @@ footer {
   padding: 30px;
 }
 
-.vb img {
-  width: 100%;
-  padding: 10% 0;
+.vb {
+  text-align: center;
+  text-transform: capitalize;
+  font-family: 'Condiment', cursive;
+  clear: both;
+  color: black;
+  background: linear-gradient(#f72424, #ffffff, #27e461);
+}
+
+.anim {
+  width: 250px;
+  margin: 0 auto;
+  animation: ani 5s linear infinite;
+}
+
+@keyframes ani {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 @media screen and (max-width: 500px) {
@@ -817,9 +836,6 @@ footer {
   }
   .col-3 {
     width: 100%;
-  }
-  .vb img {
-    height: 300vh;
   }
 }
 
