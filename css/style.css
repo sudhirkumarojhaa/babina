@@ -2,46 +2,91 @@
 * ===============
 *
 * All variables and most of the configuration is defined on this page. */
+
+
 /*== Colors*/
+
+
 /**/
+
+
 /*## Gray and brand colors for use across theme.*/
+
+
 /*== Scaffolding*/
+
+
 /**/
+
+
 /*## Settings for some of the most global styles.*/
+
+
 /*** Background color for `<body>`.*/
+
+
 /*** Global text color on `<body>`.*/
+
+
 /*** Global textual link color.*/
+
+
 /*** Link hover color set via `darken()` function.*/
+
+
 /* 20/14*/
+
+
 /*** By default, this inherits from the `<body>`.*/
+
+
 /* spacing */
+
+
 /*== Buttons*/
+
+
 /**/
+
+
 /*## For each of Theme buttons, define text, background and border color.*/
+
+
 /* Fonts
 * ===============
 *
 * Place all your font declarations here */
+
+
 /*
 * Scut, a collection of Sass utilities
 * to ease and improve our implementations of common style-code patterns.
 * v1.4.0
 * Docs at http://davidtheclark.github.io/scut
 */
+
+
 /*
 * Scut, a collection of Sass utilities
 * to ease and improve our implementations of common style-code patterns.
 * v1.4.0
 * Docs at http://davidtheclark.github.io/scut
 */
+
+
 /*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+
+
 /* Document
    ========================================================================== */
+
+
 /**
  * 1. Correct the line height in all browsers.
  * 2. Prevent adjustments of font size after orientation changes in
  *    IE on Windows Phone and in iOS.
  */
+
 html {
   line-height: 1.15;
   /* 1 */
@@ -51,18 +96,24 @@ html {
   /* 2 */
 }
 
+
 /* Sections
    ========================================================================== */
+
+
 /**
  * Remove the margin in all browsers (opinionated).
  */
+
 body {
   margin: 0;
 }
 
+
 /**
  * Add the correct display in IE 9-.
  */
+
 article,
 aside,
 footer,
@@ -72,21 +123,27 @@ section {
   display: block;
 }
 
+
 /**
  * Correct the font size and margin on `h1` elements within `section` and
  * `article` contexts in Chrome, Firefox, and Safari.
  */
+
 h1 {
   font-size: 2em;
   margin: 0.67em 0;
 }
 
+
 /* Grouping content
    ========================================================================== */
+
+
 /**
  * Add the correct display in IE 9-.
  * 1. Add the correct display in IE.
  */
+
 figcaption,
 figure,
 main {
@@ -94,17 +151,21 @@ main {
   display: block;
 }
 
+
 /**
  * Add the correct margin in IE 8.
  */
+
 figure {
   margin: 1em 40px;
 }
+
 
 /**
  * 1. Add the correct box sizing in Firefox.
  * 2. Show the overflow in Edge and IE.
  */
+
 hr {
   box-sizing: content-box;
   /* 1 */
@@ -114,10 +175,12 @@ hr {
   /* 2 */
 }
 
+
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+
 pre {
   font-family: monospace, monospace;
   /* 1 */
@@ -125,12 +188,16 @@ pre {
   /* 2 */
 }
 
+
 /* Text-level semantics
    ========================================================================== */
+
+
 /**
  * 1. Remove the gray background on active links in IE 10.
  * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
  */
+
 a {
   background-color: transparent;
   /* 1 */
@@ -138,10 +205,12 @@ a {
   /* 2 */
 }
 
+
 /**
  * 1. Remove the bottom border in Chrome 57- and Firefox 39-.
  * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
  */
+
 abbr[title] {
   border-bottom: none;
   /* 1 */
@@ -151,26 +220,32 @@ abbr[title] {
   /* 2 */
 }
 
+
 /**
  * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
  */
+
 b,
 strong {
   font-weight: inherit;
 }
 
+
 /**
  * Add the correct font weight in Chrome, Edge, and Safari.
  */
+
 b,
 strong {
   font-weight: bolder;
 }
 
+
 /**
  * 1. Correct the inheritance and scaling of font size in all browsers.
  * 2. Correct the odd `em` font sizing in all browsers.
  */
+
 code,
 kbd,
 samp {
@@ -180,32 +255,40 @@ samp {
   /* 2 */
 }
 
+
 /**
  * Add the correct font style in Android 4.3-.
  */
+
 dfn {
   font-style: italic;
 }
 
+
 /**
  * Add the correct background and color in IE 9-.
  */
+
 mark {
   background-color: #ff0;
   color: #000;
 }
 
+
 /**
  * Add the correct font size in all browsers.
  */
+
 small {
   font-size: 80%;
 }
+
 
 /**
  * Prevent `sub` and `sup` elements from affecting the line height in
  * all browsers.
  */
+
 sub,
 sup {
   font-size: 75%;
@@ -222,44 +305,58 @@ sup {
   top: -0.5em;
 }
 
+
 /* Embedded content
    ========================================================================== */
+
+
 /**
  * Add the correct display in IE 9-.
  */
+
 audio,
 video {
   display: inline-block;
 }
 
+
 /**
  * Add the correct display in iOS 4-7.
  */
+
 audio:not([controls]) {
   display: none;
   height: 0;
 }
 
+
 /**
  * Remove the border on images inside links in IE 10-.
  */
+
 img {
   border-style: none;
 }
 
+
 /**
  * Hide the overflow in IE.
  */
+
 svg:not(:root) {
   overflow: hidden;
 }
 
+
 /* Forms
    ========================================================================== */
+
+
 /**
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
  */
+
 button,
 input,
 optgroup,
@@ -275,31 +372,37 @@ textarea {
   /* 2 */
 }
 
+
 /**
  * Show the overflow in IE.
  * 1. Show the overflow in Edge.
  */
+
 button,
 input {
   /* 1 */
   overflow: visible;
 }
 
+
 /**
  * Remove the inheritance of text transform in Edge, Firefox, and IE.
  * 1. Remove the inheritance of text transform in Firefox.
  */
+
 button,
 select {
   /* 1 */
   text-transform: none;
 }
 
+
 /**
  * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
  *    controls in Android 4.
  * 2. Correct the inability to style clickable types in iOS and Safari.
  */
+
 button,
 html [type="button"],
 [type="reset"],
@@ -309,9 +412,11 @@ html [type="button"],
   /* 2 */
 }
 
+
 /**
  * Remove the inner border and padding in Firefox.
  */
+
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
 [type="reset"]::-moz-focus-inner,
@@ -320,9 +425,11 @@ button::-moz-focus-inner,
   padding: 0;
 }
 
+
 /**
  * Restore the focus styles unset by the previous rule.
  */
+
 button:-moz-focusring,
 [type="button"]:-moz-focusring,
 [type="reset"]:-moz-focusring,
@@ -330,12 +437,15 @@ button:-moz-focusring,
   outline: 1px dotted ButtonText;
 }
 
+
 /**
  * Correct the padding in Firefox.
  */
+
 fieldset {
   padding: 0.35em 0.75em 0.625em;
 }
+
 
 /**
  * 1. Correct the text wrapping in Edge and IE.
@@ -343,6 +453,7 @@ fieldset {
  * 3. Remove the padding so developers are not caught out when they zero out
  *    `fieldset` elements in all browsers.
  */
+
 legend {
   box-sizing: border-box;
   /* 1 */
@@ -358,10 +469,12 @@ legend {
   /* 1 */
 }
 
+
 /**
  * 1. Add the correct display in IE 9-.
  * 2. Add the correct vertical alignment in Chrome, Firefox, and Opera.
  */
+
 progress {
   display: inline-block;
   /* 1 */
@@ -369,17 +482,21 @@ progress {
   /* 2 */
 }
 
+
 /**
  * Remove the default vertical scrollbar in IE.
  */
+
 textarea {
   overflow: auto;
 }
+
 
 /**
  * 1. Add the correct box sizing in IE 10-.
  * 2. Remove the padding in IE 10-.
  */
+
 [type="checkbox"],
 [type="radio"] {
   box-sizing: border-box;
@@ -388,18 +505,27 @@ textarea {
   /* 2 */
 }
 
+
 /**
  * Correct the cursor style of increment and decrement buttons in Chrome.
  */
+
 [type="number"]::-webkit-inner-spin-button,
 [type="number"]::-webkit-outer-spin-button {
   height: auto;
 }
 
+@font-face {
+  font-family: 'Samarkan';
+  src: url('../fonts/SamarkanNormal.woff');
+  font-weight: normal;
+  font-style: normal;
+}
 /**
  * 1. Correct the odd appearance in Chrome and Safari.
  * 2. Correct the outline style in Safari.
  */
+
 [type="search"] {
   -webkit-appearance: textfield;
   /* 1 */
@@ -407,18 +533,22 @@ textarea {
   /* 2 */
 }
 
+
 /**
  * Remove the inner padding and cancel buttons in Chrome and Safari on macOS.
  */
+
 [type="search"]::-webkit-search-cancel-button,
 [type="search"]::-webkit-search-decoration {
   -webkit-appearance: none;
 }
 
+
 /**
  * 1. Correct the inability to style clickable types in iOS and Safari.
  * 2. Change font properties to `inherit` in Safari.
  */
+
 ::-webkit-file-upload-button {
   -webkit-appearance: button;
   /* 1 */
@@ -426,45 +556,61 @@ textarea {
   /* 2 */
 }
 
+
 /* Interactive
    ========================================================================== */
+
+
 /*
  * Add the correct display in IE 9-.
  * 1. Add the correct display in Edge, IE, and Firefox.
  */
+
 details,
 menu {
   display: block;
 }
 
+
 /*
  * Add the correct display in all browsers.
  */
+
 summary {
   display: list-item;
 }
 
+
 /* Scripting
    ========================================================================== */
+
+
 /**
  * Add the correct display in IE 9-.
  */
+
 canvas {
   display: inline-block;
 }
 
+
 /**
  * Add the correct display in IE.
  */
+
 template {
   display: none;
 }
 
+
 /* Hidden
    ========================================================================== */
+
+
 /**
  * Add the correct display in IE 10-.
  */
+
 [hidden] {
   display: none;
 }
@@ -490,45 +636,55 @@ body {
   background-color: #fff;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: inherit;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+
   font-weight: 900;
   line-height: 1.1;
   margin: 0 0 1.5rem 0;
 }
 
-h1, .h1 {
-  font-size: 3.6rem;
+h1 {
+  font-size: 8rem;
+  color: Blue;
 }
 
-h2, .h2 {
+h2,
+.h2 {
   font-size: 3rem;
 }
 
-h3, .h3 {
+h3,
+.h3 {
   font-size: 2.4rem;
 }
 
-h4, .h4 {
+h4,
+.h4 {
   font-size: 1.8rem;
 }
 
-h5, .h5 {
+h5,
+.h5 {
   font-size: 1.4rem;
 }
 
-h6, .h6 {
+h6,
+.h6 {
   font-size: 1.2rem;
 }
 
 a {
-  color: #f47820;
   text-decoration: none;
 }
 
-a:hover, a:focus {
+a:hover,
+a:focus {
   color: #be5409;
-  text-decoration: underline;
 }
 
 figure {
@@ -539,10 +695,12 @@ section {
   padding: 70px 0;
 }
 
+
 /* Custom Grids
 * ===============
 *
 * Define all your custom grid declarations here */
+
 .flex-row {
   display: -ms-flexbox;
   display: flex;
@@ -558,10 +716,12 @@ section {
   padding-right: 15px;
 }
 
+
 /* Helpers
 * ===============
 *
 * Place all your helpers declarations here */
+
 .clearfix:before,
 .clearfix:after {
   content: "";
@@ -572,7 +732,9 @@ section {
   clear: both;
 }
 
+
 /* Text alignment*/
+
 .text-left {
   text-align: left;
 }
@@ -606,10 +768,12 @@ section {
   white-space: nowrap !important;
 }
 
+
 /* Buttons
 * ===============
 *
 * Place all your buttons declarations here */
+
 .btn {
   display: inline-block;
   margin-bottom: 0;
@@ -632,17 +796,21 @@ section {
   font-weight: normal;
 }
 
-.btn:hover, .btn:focus, .btn.focus {
+.btn:hover,
+.btn:focus,
+.btn.focus {
   text-decoration: none;
 }
 
-.btn:active, .btn.active {
+.btn:active,
+.btn.active {
   outline: 0;
   background-image: none;
   box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
 }
 
-.btn.disabled, .btn[disabled],
+.btn.disabled,
+.btn[disabled],
 fieldset[disabled] .btn {
   cursor: disabled;
   opacity: 0.65;
@@ -672,10 +840,12 @@ input[type="checkbox"] {
   line-height: normal;
 }
 
+
 /* Fonts
 * ===============
 *
 * Place all your font declarations here */
+
 .site-menu nav li {
   list-style: none;
   margin-right: 10%;
@@ -688,10 +858,12 @@ input[type="checkbox"] {
   font-size: 2.43em;
 }
 
+
 /* Header
 * ===============
 *
 * Place all your header declarations here */
+
 .site-head {
   text-align: center;
   height: 650px;
@@ -699,10 +871,6 @@ input[type="checkbox"] {
   overflow: hidden;
   padding: 30px;
   text-transform: uppercase;
-}
-
-.site-head h1 {
-  font-size: 2.4em;
 }
 
 video {
@@ -719,18 +887,22 @@ video {
   transition: 1s opacity;
 }
 
+
 /* Home
 * ===============
 *
 * Place all your home page declarations here */
+
 .site-intro {
   border-left: 5px solid #444;
 }
+
 
 /* Footer
 * ===============
 *
 * Place all your footer declarations here */
+
 footer {
   text-align: center;
   color: #fff;
@@ -837,6 +1009,10 @@ footer {
   .col-3 {
     width: 100%;
   }
+  h1{
+    font-size: 4rem;
+  }
 }
+
 
 /*# sourceMappingURL=style.css.map */
