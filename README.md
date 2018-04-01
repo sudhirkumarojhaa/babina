@@ -1,1 +1,1 @@
-https://sudhirkumarojhaa.github.io/indiaintroduced/
+https://sudhirkumarojhaa.github.io/india
